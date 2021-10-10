@@ -1,7 +1,9 @@
+import { Cards } from '../../components/Cards';
+
 export const Platform = () => {
     return (
         <>
-            <h1>Platform</h1>
+            <Cards dados="cards" />
         </>
     )
 };
